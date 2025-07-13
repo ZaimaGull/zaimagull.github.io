@@ -47,7 +47,7 @@ nav.scrolled {
 .logo {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #d4af37;
+    color: #edba70;
     text-decoration: none;
     transition: all 0.3s ease;
 }
@@ -77,7 +77,7 @@ nav.scrolled {
     left: 0;
     width: 0;
     height: 2px;
-    background: #d4af37;
+    background: #edba70;
     transition: width 0.3s ease;
 }
 
@@ -86,7 +86,7 @@ nav.scrolled {
 }
 
 .nav-links a:hover {
-    color: #d4af37;
+    color: #edba70;
 }
 
 /* Hero Section */
@@ -97,7 +97,7 @@ nav.scrolled {
     justify-content: center;
     text-align: center;
     position: relative;
-    background: linear-gradient(135deg, #0a2f1f 0%, #1a4d33 50%, #2d6b4a 100%);
+    background: linear-gradient(135deg, #0a2f1f 0%, #1a4d33 50%, #2d6b4a 100%); 
     overflow: hidden;
 }
 
@@ -135,7 +135,7 @@ nav.scrolled {
 
 .hero .subtitle {
     font-size: 1.5rem;
-    color: #d4af37;
+    color: #edba70;
     margin-bottom: 2rem;
     opacity: 0;
     animation: slideUp 1s ease forwards 0.8s;
@@ -162,7 +162,7 @@ nav.scrolled {
 
 .cta-button {
     display: inline-block;
-    background: linear-gradient(45deg, #d4af37, #f4d764);
+    background: linear-gradient(45deg, #d4af37, #edba70);
     color: #0a2f1f;
     padding: 1rem 2rem;
     border-radius: 50px;
@@ -193,7 +193,7 @@ nav.scrolled {
     text-align: center;
     font-size: 2.5rem;
     font-weight: 700;
-    color: #d4af37;
+    color: #edba70;
     margin-bottom: 3rem;
     position: relative;
 }
@@ -206,7 +206,7 @@ nav.scrolled {
     transform: translateX(-50%);
     width: 80px;
     height: 3px;
-    background: linear-gradient(45deg, #d4af37, #f4d764);
+    background: linear-gradient(45deg, #d4af37, #edba70);
     border-radius: 2px;
 }
 
@@ -221,7 +221,7 @@ nav.scrolled {
 .about-image {
     width: 100%;
     height: 400px;
-    background: linear-gradient(45deg, #2d6b4a, #d4af37);
+    background: linear-gradient(45deg, #2d6b4a, #edba70);
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -237,7 +237,7 @@ nav.scrolled {
 
 .about-text h3 {
     font-size: 1.5rem;
-    color: #d4af37;
+    color: #edba70;
     margin-bottom: 1rem;
 }
 
@@ -269,7 +269,7 @@ nav.scrolled {
 }
 
 .skill-card h4 {
-    color: #d4af37;
+    color: #edba70;
     font-size: 1.3rem;
     margin-bottom: 1rem;
 }
@@ -289,7 +289,7 @@ nav.scrolled {
 
 .skill-progress {
     height: 100%;
-    background: linear-gradient(45deg, #d4af37, #f4d764);
+    background: linear-gradient(45deg, #d4af37, #edba70);
     border-radius: 4px;
     transition: width 1s ease;
 }
@@ -317,7 +317,7 @@ nav.scrolled {
 
 .project-image {
     height: 200px;
-    background: linear-gradient(45deg, #2d6b4a, #d4af37);
+    background: linear-gradient(45deg, #2d6b4a, #edba70);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -353,7 +353,7 @@ nav.scrolled {
 }
 
 .project-link:hover {
-    color: #f4d764;
+    color: #edba70;
 }
 
 /* Contact Section */
@@ -369,7 +369,7 @@ nav.scrolled {
 }
 
 .contact-info h3 {
-    color: #d4af37;
+    color: #edba70;
     font-size: 1.5rem;
     margin-bottom: 1rem;
 }
@@ -383,7 +383,7 @@ nav.scrolled {
 
 .contact-item::before {
     content: '→';
-    color: #d4af37;
+    color: #edba70;
     margin-right: 1rem;
     font-weight: bold;
 }
@@ -402,7 +402,7 @@ nav.scrolled {
 
 .form-group label {
     display: block;
-    color: #d4af37;
+    color: #edba70;
     margin-bottom: 0.5rem;
     font-weight: 500;
 }
@@ -422,12 +422,12 @@ nav.scrolled {
 .form-group input:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: #d4af37;
+    border-color: #edba70;
     box-shadow: 0 0 10px rgba(212, 175, 55, 0.3);
 }
 
 .submit-btn {
-    background: linear-gradient(45deg, #d4af37, #f4d764);
+    background: linear-gradient(45deg, #d4af37, #edba70);
     color: #0a2f1f;
     padding: 1rem 2rem;
     border: none;
