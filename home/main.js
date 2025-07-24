@@ -54,7 +54,7 @@ skillBars.forEach(bar => {
     skillObserver.observe(bar);
 });
 
-// Form submission
+/* // Form submission
 document.getElementById('contactForm').addEventListener('submit', function(e) {
     e.preventDefault();
     
@@ -64,14 +64,48 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
     const email = formData.get('email');
     const message = formData.get('message');
     
-    // Simple validation
+   // Simple validation
     if (name && email && message) {
         alert('Thank you for your message! I\'ll get back to you soon.');
         this.reset();
     } else {
         alert('Please fill in all fields.');
     }
+}); 
+*/
+
+// Form data package
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    const formData = new FormData(this);
+    const data = Object.fromEntries(formData.entries()); // converts to JSON-friendly object
+
+    fetch('/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
+    })
+    .then(response => response.json())
+    .then(result => {
+        alert(result.message);
+        this.reset();
+    })
+    .catch(error => {
+        console.error(error);
+        alert('Error sending message.');
+    });
 });
+
+// Form data transfer
+const express = require('express');
+const nodemailer = require('nodemailer');
+const bodyParser = require('body-parser');
+const cors = require('cors');
+
+const app = express();
+app.use(cors());
+app.use(bodyParser.json());
 
 // Add some interactive particles (optional enhancement)
 function createParticle() {
@@ -106,3 +140,5 @@ function createParticle() {
 
 // Create particles occasionally
 setInterval(createParticle, 2000);
+
+
