@@ -173,10 +173,13 @@
                     <div class="contact-item">Location: New York, NY</div>
                     <div class="contact-item">LinkedIn: Linkedin.com/in/zaimachoudhry/</div>
                 </div>
-                <form class="contact-form" id="contactForm">
+                <form action= "https://api.web3forms.com/submit" method="POST" class="contact-form" id="contactForm">
                     <div class="form-group">
                         <label for="name">Name</label>
                         <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                    <input type="hidden" name="access_key" value="f77d64f4-abe1-4b47-82a4-4139d370c593">
                     </div>
                     <div class="form-group">
                         <label for="email">Email</label>
@@ -199,5 +202,6 @@
         </div>
     </footer>
     <script src="main.js"></script>
+    
 </body>
 </html>
