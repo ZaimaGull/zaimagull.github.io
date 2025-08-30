@@ -11,25 +11,26 @@
     <section class="hero">
         <div class="container">
             <div class="hero-content">
-                <h1 class="project-title">Project Name</h1>
-                <p class="project-subtitle">Brief description of what the project accomplished</p>
+                <h1 class="project-title">TalenTech Solutions</h1>
+                <p class="project-subtitle">An interactive map was created to help managers visualize the location information of all Sales Agents.</p>
+            
                 
                 <div class="project-meta">
                     <div class="meta-item">
                         <span class="meta-label">Duration</span>
-                        <span class="meta-value">3 Months</span>
+                        <span class="meta-value">4 years</span>
                     </div>
                     <div class="meta-item">
                         <span class="meta-label">Role</span>
-                        <span class="meta-value">UX Designer</span>
+                        <span class="meta-value">Salesforce Admin & Developer</span>
                     </div>
                     <div class="meta-item">
                         <span class="meta-label">Team Size</span>
-                        <span class="meta-value">4 People</span>
+                        <span class="meta-value">7 People</span>
                     </div>
                     <div class="meta-item">
                         <span class="meta-label">Platform</span>
-                        <span class="meta-value">Web & Mobile</span>
+                        <span class="meta-value">Web</span>
                     </div>
                 </div>
             </div>
@@ -45,7 +46,7 @@
                 <header class="section-header">
                     <div class="section-number">01</div>
                     <h2 class="section-title">Project Overview</h2>
-                    <p class="section-description">Setting the stage for understanding the challenge and opportunity</p>
+                    <p class="section-description"> The team needed a quick way to view Sales Agent details without navigating through multiple records. This ensured that managers could oversee their teams more effectively, improving decision-making and productivity.</p>
                 </header>
 
                 <div class="content-grid">
@@ -55,8 +56,7 @@
                             The Challenge
                         </h3>
                         <div class="text-content">
-                            <p>Describe the main problem or challenge that needed to be solved. What pain points were users experiencing? What business goals needed to be achieved?</p>
-                            <p>Include specific details about <span class="highlight">user frustrations</span> and quantifiable issues when possible.</p>
+                            <p>Managers faced difficulty accessing Sales Agent information in Salesforce, digging for details such as the name, customer accounts handled, date of joining, and years of experience, which were scattered across multiple records and reports. This led to operational delays that negatively impacted other team workflows.</p>
                         </div>
                     </div>
 
@@ -66,8 +66,7 @@
                             The Solution
                         </h3>
                         <div class="text-content">
-                            <p>Provide a high-level overview of your solution. What approach did you take to solve the identified problems?</p>
-                            <p>Highlight the <span class="highlight">key innovations</span> or unique aspects of your solution approach.</p>
+                            <p>Visibility and efficiency challenges were resolved with creating a map using Lightning Web Components (LWC). A query was created to integrate Sales Agent records, ensuring real-time retrieval of key fields (Name, Customers Handled, Date of Joining, Experience). The map was placed on the homepage for easy access and readability with the tile format.</p>
                         </div>
                     </div>
                 </div>
@@ -82,18 +81,17 @@
                 <header class="section-header">
                     <div class="section-number">02</div>
                     <h2 class="section-title">Research & Discovery</h2>
-                    <p class="section-description">Understanding users, market, and constraints</p>
+                    <p class="section-description">Understanding business needs and constraints</p>
                 </header>
 
                 <div class="content-grid">
                     <div class="content-block">
                         <h3 class="block-title">
                             <span class="block-icon">👥</span>
-                            User Research
+                            Research
                         </h3>
                         <div class="text-content">
-                            <p>Detail your research methodology. What methods did you use to understand your users? Interviews, surveys, analytics review, competitive analysis?</p>
-                            <p>Include key insights and user personas if relevant.</p>
+                            <p>I researched the Salesforce libraries to understand apex methodologies (wire and imperative) and parent & child components to get the sales agent details to appear when entered in the search bar and pin the geographic points upon query.</p>
                         </div>
                     </div>
 
@@ -103,8 +101,7 @@
                             Key Findings
                         </h3>
                         <div class="text-content">
-                            <p>What were the most important discoveries from your research? What surprised you?</p>
-                            <p>Include both <span class="highlight">quantitative data</span> and qualitative insights that shaped your design decisions.</p>
+                            <p>An apex method was created imperatively to query the Sales Agent details. The search feature filtered Sales Agent detail records based on the entered text and the location information matching records, which would be demonstrated on the map.</p>
                         </div>
                     </div>
                 </div>
@@ -118,30 +115,30 @@
             <section class="section">
                 <header class="section-header">
                     <div class="section-number">03</div>
-                    <h2 class="section-title">Design Process</h2>
-                    <p class="section-description">From ideation to final design</p>
+                    <h2 class="section-title">Agile Method: Scrum</h2>
+                    <p class="section-description">From user story to final product</p>
                 </header>
 
                 <div class="process-steps">
                     <div class="process-step">
                         <div class="step-number">1</div>
-                        <h3 class="step-title">Ideation</h3>
-                        <p class="step-description">Brainstorming sessions, sketching, and exploring multiple solution approaches.</p>
+                        <h3 class="step-title">User Story</h3>
+                        <p class="step-description">User story involved conversions with Scrum Master & Business Analyst, exploring multiple solution approaches.</p>
                     </div>
                     <div class="process-step">
                         <div class="step-number">2</div>
-                        <h3 class="step-title">Wireframing</h3>
-                        <p class="step-description">Creating low-fidelity wireframes to establish information architecture and user flows.</p>
+                        <h3 class="step-title">LWC Apex Methodologies</h3>
+                        <p class="step-description">Imperative method was used to call Apex when user (e.g. manager) clicked a button.</p>
                     </div>
                     <div class="process-step">
                         <div class="step-number">3</div>
-                        <h3 class="step-title">Prototyping</h3>
-                        <p class="step-description">Building interactive prototypes to test concepts with users and stakeholders.</p>
+                        <h3 class="step-title">Development</h3>
+                        <p class="step-description">A Lightning Message Service was created to set up the communication between multiple components.</p>
                     </div>
                     <div class="process-step">
                         <div class="step-number">4</div>
-                        <h3 class="step-title">Testing</h3>
-                        <p class="step-description">Conducting usability tests and gathering feedback to refine the design.</p>
+                        <h3 class="step-title">Debugging</h3>
+                        <p class="step-description">Multiple rounds of debugging served to fine tune code and test functionality before pushed to production.</p>
                     </div>
                 </div>
 
@@ -154,12 +151,12 @@
             <section class="section">
                 <header class="section-header">
                     <div class="section-number">04</div>
-                    <h2 class="section-title">Final Design</h2>
+                    <h2 class="section-title">Final Product</h2>
                     <p class="section-description">The solution in action</p>
                 </header>
 
                 <div class="text-content" style="max-width: 700px; margin: 0 auto; text-align: center;">
-                    <p>Present your final design solution. Walk through the key screens, features, or components. Explain the reasoning behind major design decisions.</p>
+                    <p>An overview for the Sales Agent records were created in tile format highlighting essential information such as customer handled and date of joining. The search bar was placed at the very top for easy access to managers. The map component was placed below the Sales Agent component to display agent upon manager's interaction with search bar.</p>
                 </div>
 
                 <div class="image-placeholder">
@@ -173,8 +170,7 @@
                             Design Decisions
                         </h3>
                         <div class="text-content">
-                            <p>Explain the reasoning behind key design choices. Why did you choose specific layouts, colors, or interaction patterns?</p>
-                            <p>Connect decisions back to <span class="highlight">user research findings</span> and project goals.</p>
+                            <p>An interactive map was created to pinpoint geolocation of all Sales Agents and changed upon manager's search query.</p>
                         </div>
                     </div>
 
@@ -184,8 +180,8 @@
                             Key Features
                         </h3>
                         <div class="text-content">
-                            <p>Highlight the most important features or innovations in your solution.</p>
-                            <p>Focus on features that directly address the <span class="highlight">core user problems</span> identified in your research.</p>
+                            <p>A magnifying glass icon was placed on each tile to expand Sales Agent information by directing to associated record page.</p>
+                    
                         </div>
                     </div>
                 </div>
@@ -201,20 +197,16 @@
 
                 <div class="results-grid">
                     <div class="result-card">
-                        <div class="result-number">85%</div>
-                        <div class="result-label">User Satisfaction</div>
+                        <div class="result-number">500+</div>
+                        <div class="result-label">Satisfied users</div>
                     </div>
                     <div class="result-card">
-                        <div class="result-number">40%</div>
-                        <div class="result-label">Task Completion</div>
+                        <div class="result-number">5s</div>
+                        <div class="result-label">Lookup Time</div>
                     </div>
                     <div class="result-card">
-                        <div class="result-number">2.5x</div>
-                        <div class="result-label">Engagement</div>
-                    </div>
-                    <div class="result-card">
-                        <div class="result-number">60%</div>
-                        <div class="result-label">Time Saved</div>
+                        <div class="result-number">2x</div>
+                        <div class="result-label">Faster Decision-Making</div>
                     </div>
                 </div>
 
@@ -222,19 +214,19 @@
                     <h3>Key Learnings & Reflections</h3>
                     <div class="lesson-item">
                         <div class="lesson-bullet"></div>
-                        <div class="lesson-text">What worked well in this project and why it was successful</div>
+                        <div class="lesson-text">Moving the interactive map component to the sidebar for easy side-by-side visualization.</div>
                     </div>
                     <div class="lesson-item">
                         <div class="lesson-bullet"></div>
-                        <div class="lesson-text">Challenges faced and how they were overcome</div>
+                        <div class="lesson-text">Challenges involved getting the Sales Agent overview and map components to communicate.</div>
                     </div>
                     <div class="lesson-item">
                         <div class="lesson-bullet"></div>
-                        <div class="lesson-text">What you would do differently if starting this project again</div>
+                        <div class="lesson-text">If I were to do anything differently, I'd try the wire method to see if it loads the Sales Agent details faster.</div>
                     </div>
                     <div class="lesson-item">
                         <div class="lesson-bullet"></div>
-                        <div class="lesson-text">Skills or insights gained from this experience</div>
+                        <div class="lesson-text">Skills gained involve LWC, HTML, CSS, and JavaScript.</div>
                     </div>
                 </div>
             </section>
